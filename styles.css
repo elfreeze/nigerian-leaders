@@ -141,12 +141,14 @@ header p{
 }
 .image-grid{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  width: 300px;
-  max-width: 400px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  place-items: center;
+  width: 100%;
   height: auto;
+  margin: 10px 10px;
 }
-.grid-row img{
+.grid-column {
   height: 250px;
   width: 100%;
   padding: 10px 10px;
