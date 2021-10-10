@@ -77,8 +77,8 @@
 .profiles-section-heading {
   width: 60%;
   background: #006400;
-  margin: 0 auto 40px auto;
-  border-bottom: 3px solid #333;
+  margin: 20px auto 40px auto;
+  border-bottom: 3px solid #000;
   border: 50%;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
@@ -128,8 +128,10 @@
 
 
 .btn-show-all {
+  
+  width: 100px;
   font-size: 30px;
-  background: #333;
+  background: #006400;
   transition: transform 0.3s ease-out;
 }
 
