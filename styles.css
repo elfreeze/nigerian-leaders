@@ -192,7 +192,7 @@
   margin: 30px auto;
   text-align: justify;
   width: 80%;
-  line-height: 2;
+  line-height: 1.5;
 }
 #bio h3{
   font-family: 'Josefin Sans', sans-serif;
@@ -205,6 +205,7 @@
 #bio p {
   font-family: 'Vollkorn', sans-serif;
   font-size: 22px;
+  margin-bottom: 30px;
 }
 .img-head{
   background: #006400;
