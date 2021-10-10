@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Birthstone&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 /*----- global attributes -----*/
 * {
@@ -35,6 +35,9 @@
   transition: transform 0.3s ease-out;
   text-shadow: 3px 3px 3px #000;
 }
+.logo a:hover {
+  color: #006400;
+}
 .nav-links {
   display: flex;
   justify-content: center;
@@ -48,6 +51,9 @@
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   color: #006400;
+}
+.nav-links a:hover {
+  color: #fff;
 }
 @media screen and (max-width: 480px) {
   .logo-img {
@@ -70,21 +76,23 @@
   padding: 30px 20px;
   background: #fff;
   background-size: cover;
-  color: #c31432;
+  color: #000;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .profiles-section-heading {
+  height: 60px;
   width: 60%;
   background: #006400;
   margin: 20px auto 40px auto;
+  padding: 10px;
   border-bottom: 3px solid #000;
   border: 50%;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  color: #000;
+  color: #fff;
   font-size: 40px;
-  
+  text-shadow: 3px 3px 3px #000;
 }
 .profiles-grid {
   display: grid;
@@ -98,9 +106,9 @@
 .profile {
   box-shadow: 1px 1px 2px #006400;
   border-radius: 2px;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid #000;
   height: 300px;
-  color: #333;
+  color: #000;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -118,12 +126,13 @@
   height: 80%;
   width: 100%;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .profile-title {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
-  padding: 10px 5px 10px 5px;
+  padding: 10px auto 5px auto;
 }
 
 
@@ -156,10 +165,11 @@
 }
 .content-section h1{
   font-size: 30px;
-  font-family: 'Glory', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .content-section p{
   font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .img-container {
@@ -182,27 +192,29 @@
   margin: 30px auto;
   text-align: justify;
   width: 80%;
-  font-size: 22px;
   line-height: 2;
-  letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
 }
 #bio h3{
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   margin-bottom: 10px;
   background: #006400;
   color: #fff;
   text-shadow: 3px 3px 3px #000;
 }
-
+#bio p {
+  font-family: 'Vollkorn', sans-serif;
+  font-size: 22px;
+}
 .img-head{
   background: #006400;
   color: #fff;
   font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
   height: 50px;
   width: 50%;
-  margin: 20px auto;
-  padding: 5px;
+  margin: 10px auto;
+  padding: 10px;
   text-shadow: 3px 3px 3px #000;
 }
 .image-grid {
