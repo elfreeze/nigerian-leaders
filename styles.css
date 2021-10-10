@@ -273,7 +273,7 @@
   }
   .img-container {
     height: 40vh;
-    width: auto;
+    width: 80%;
     margin-top: 10px;
   }
   #img-caption {
