@@ -193,11 +193,16 @@
 }
 .image {
   height: 90%;
-  width: auto;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.671);
 }
-
+#img-caption {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  width: 90%;
+}
 #bio{
   margin: 30px auto;
   text-align: justify;
