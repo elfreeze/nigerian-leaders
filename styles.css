@@ -106,12 +106,12 @@
 
 
 .profile:hover {
-  color: orange;
+  color: #006400;
   transform: translateX(3px);
 }
 
 .profile a:hover {
-  color: orange;
+  color: #006400;
   transform: translateY(5px);
 }
 .profile-image {
@@ -127,28 +127,6 @@
 }
 
 
-.btn-show-all {
-  
-  width: 100px;
-  font-size: 30px;
-  background: #006400;
-  transition: transform 0.3s ease-out;
-}
-
-.btn-show-all:hover {
-  background: #c31432;
-  transform: translateY(5px);
-}
-
-.btn-show-all:hover > i {
-  transform: translateX(2px);
-}
-
-.btn-show-all > i {
-  margin-left: 10px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
-}
 
 
 /*----- content section -----*/
