@@ -271,15 +271,16 @@
   .content-section p{
     font-size: 15px;
   }
-  
   .img-container {
     height: 40vh;
-    width: 100%;
+    width: auto;
     margin-top: 10px;
   }
   #img-caption {
+    text-align: center;
     margin-top: 10px;
     font-size: 15px;
+    width: 90%;
   }
   .img-head{
     font-size: 20px;
