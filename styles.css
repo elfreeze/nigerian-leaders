@@ -75,13 +75,14 @@
 }
 
 .profiles-section-heading {
-  width: 40%;
+  width: 60%;
+  background: #006400;
   margin: 0 auto 40px auto;
   border-bottom: 3px solid #333;
   border: 50%;
   font-family: 'Vollkorn', serif;
   font-weight: bold;
-  color: #333;
+  color: #000;
   font-size: 40px;
   
 }
@@ -95,7 +96,7 @@
   margin-bottom: 60px;
 }
 .profile {
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px #006400;
   border-radius: 2px;
   border-bottom: 3px solid #333;
   height: 300px;
@@ -151,11 +152,13 @@
 /*----- content section -----*/
 .content-section {
   margin: 0 auto;
+  margin-bottom: 20px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 
@@ -178,9 +181,7 @@
 .content-section p{
   font-size: 20px;
 }
-@media screen and (max-width: 480px){
-   
-}
+
 .img-container {
   display: flex;
   flex-direction: column;
@@ -211,19 +212,18 @@
   margin-bottom: 10px;
   background: #006400;
   color: #fff;
+  text-shadow: 3px 3px 3px #000;
 }
-#bio p{
-  margin-top: 30px;
-}
+
 .img-head{
   background: #006400;
   color: #fff;
-  height: 30px;
-  width: 80%;
+  font-size: 30px;
+  height: 50px;
+  width: 50%;
   margin: 20px auto;
-}
-.image-gallery{
-  padding: 10px 20px;
+  padding: 5px;
+  text-shadow: 3px 3px 3px #000;
 }
 .image-grid {
   display: grid;
@@ -241,7 +241,22 @@
 }
 #tribute-link{
   font-size: 25px;
+  margin: 10px;
 }
+@media screen and (max-width: 480px){
+  .content-section h1 {
+    font-size: 20px;
+  }
+  .content-section p {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
 footer{
   display: flex;
   flex-direction: column;
@@ -253,7 +268,7 @@ footer{
   color: #fff;
 
 }
-footer p a{
+footer a{
   text-decoration: none;
   color: black;
 }
