@@ -265,8 +265,6 @@
     justify-content: center;
     text-align: center;
   }
-  
-  
   .header{
     padding: 20px;
     width: 80%;
@@ -279,7 +277,7 @@
   }
   .img-container {
     height: 40vh;
-    width: 80%;
+    width: 90%;
     margin-top: 10px;
   }
   #img-caption {
