@@ -282,12 +282,7 @@
     font-size: 15px;
   }
   
-  #bio{
-    margin: 30px auto;
-    text-align: justify;
-    width: 80%;
-    line-height: 1.5;
-  }
+
   #bio h3{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
