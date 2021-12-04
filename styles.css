@@ -55,7 +55,7 @@ a {
   width: 100%;
 }
 .nav-links a {
-  margin: 15px 50px;
+  margin: 5px 50px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   color: #fff;
@@ -87,7 +87,7 @@ a {
 /*------- profile grid section -------*/
 .profiles-section {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background: #fff;
   background-size: cover;
   color: #000;
@@ -97,18 +97,18 @@ a {
 .profiles-section-heading {
   width: 40%;
   background: #006400;
-  margin: 20px auto;
+  margin: 10px auto 20px auto;
   padding: 10px;
   border-bottom: 3px solid #000;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   text-shadow: 3px 3px 3px #000;
 }
 .profiles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 30px;
   height: auto;
   width: 100%;
@@ -118,7 +118,7 @@ a {
   box-shadow: 1px 1px 2px #006400;
   border-radius: 2px;
   border-bottom: 3px solid #000;
-  height: 350px;
+  height: 250px;
   color: #000;
   transition: transform 0.3s ease-in-out;
 }
@@ -134,7 +134,7 @@ a {
   transform: translateY(5px);
 }
 .profile-image {
-  height: 80%;
+  height: 70%;
   width: 100%;
   object-fit: cover;
   margin-bottom: 20px;
@@ -142,17 +142,26 @@ a {
 
 .profile-title {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
-  padding: 10px auto 5px auto;
+  font-size: 13px;
+  padding: 5px auto;
 }
 @media screen and (max-width: 480px) {  
   .profiles-section-heading { 
     width: 80%;
     background: #006400;
-    margin: 20px auto 30px auto;
+    margin: 5px auto 20px auto;
     font-size: 20px;
     padding: 30px auto;
   }
+  .profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  
 }
 
 
