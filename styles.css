@@ -287,11 +287,8 @@ a {
   margin: 10px;
 }
 #aside-tab{
-  display: flex;
-  flex-direction: column;
-  align-items: ;
   width: 30%;
-  height: auto;
+  height: 100vh;
   border-left: 3px solid #006400;
 }
 #aside-tab h3{
