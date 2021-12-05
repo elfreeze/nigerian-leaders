@@ -191,15 +191,12 @@ a {
 
 
 .header{
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px auto 50px auto;
   padding: 10px;
   background: #006400;
-  height: 80px;
-  width: 80%;
+  height: auto;
+  width: 70%;
   color: #fff;
   text-shadow: 3px 3px 3px #000;
 }
