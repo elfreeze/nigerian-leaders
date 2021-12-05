@@ -239,9 +239,9 @@ a {
   align-items: center;
   margin: 30px auto;
   text-align: justify;
-  width: 80%;
+  width: 100%;
   line-height: 1.5;
-  padding: 20px;
+  padding: 10px;
 }
 #bio h3{
   font-family: 'Josefin Sans', sans-serif;
@@ -273,7 +273,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   height: auto;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -320,11 +320,31 @@ a {
     justify-content: center;
     text-align: center;
   }
+  #bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    text-align: justify;
+    width: 95%;
+    line-height: 1.5;
+    padding: 20px;
+  }
   #img-caption {  
     font-size: 10px;
   }
   #tribute-link{
     font-size: 15px;
+  }
+  #aside-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    border-left: none;
   }
 }
 
