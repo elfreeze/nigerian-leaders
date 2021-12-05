@@ -193,7 +193,7 @@ a {
 .header{
   display: grid;
   place-items: center;
-
+  margin-bottom: 50px;
   text-align: center;
   margin: 20px auto;
   padding: 10px;
@@ -206,6 +206,7 @@ a {
 .content-section h1{
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
 }
 .content-section p{
   font-size: 16px;
@@ -290,6 +291,9 @@ a {
   margin: 10px;
 }
 #aside-tab{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
 }
 #aside-tab h3{
