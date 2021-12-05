@@ -193,6 +193,7 @@ a {
 .header{
   display: grid;
   place-items: center;
+
   text-align: center;
   margin: 20px auto;
   padding: 10px;
@@ -230,10 +231,15 @@ a {
 #img-caption {
   text-align: center;
   margin-top: 10px;
-  font-size: 15px;
+  margin-bottom: 50px;
+  font-size: 13px;
   width: 90%;
 }
 #bio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 30px auto;
   text-align: justify;
   width: 80%;
@@ -245,6 +251,7 @@ a {
   margin-bottom: 10px;
   background: #006400;
   color: #fff;
+  width: 60%;
   font-size: 16px;
   text-shadow: 3px 3px 3px #000;
 }
@@ -254,14 +261,13 @@ a {
   margin-bottom: 30px;
 }
 .img-head{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
   background: #006400;
   color: #fff;
+  width: 60%;
   font-size: 16px;
-  font-family: 'Josefin Sans', sans-serif;
-  height: 30px;
-  width: 80%;
-  margin: 10px auto;
-  padding: 7px;
   text-shadow: 3px 3px 3px #000;
 }
 .image-grid {
