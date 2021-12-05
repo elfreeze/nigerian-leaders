@@ -220,7 +220,7 @@ a {
   text-align: center;
 }
 .image {
-  height: 90%;
+  height: 100%;
   width: auto;
   margin: 0 auto;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.671);
@@ -241,7 +241,7 @@ a {
   text-align: justify;
   width: 100%;
   line-height: 1.5;
-  padding: 10px;
+  padding: 10px 30px;
 }
 #bio h3{
   font-family: 'Josefin Sans', sans-serif;
