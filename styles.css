@@ -255,8 +255,8 @@ a {
 }
 #bio p {
   font-family: 'Vollkorn', sans-serif;
-  font-size: 16px;
-  margin-bottom: 30px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 .img-head{
   font-family: 'Josefin Sans', sans-serif;
@@ -289,8 +289,10 @@ a {
 #aside-tab{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: ;
   width: 30%;
+  height: auto;
+  border-left: 3px solid #006400;
 }
 #aside-tab h3{
   font-family: 'Josefin Sans', sans-serif;
