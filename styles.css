@@ -19,6 +19,14 @@ a {
 /*------ beginning of global styling -----*/
 
 /*----- navigation menu styling -----*/
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #006400;
+  width: 100%;
+  height: 70px;
+}
 .logo-img {
   height: 30px;
   width: auto;
@@ -27,12 +35,9 @@ a {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 70px;
-  width: 100%;
-  text-align: center;
-  background: #006400;
-  z-index: 1;
+  margin-left: 70px;
+  width: 70%;
+  text-align: center; 
 }
 .logo a {
   padding: auto 20px;
@@ -51,12 +56,10 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #000;
-  height: 40px;
-  width: 100%;
+  width: 40%;
 }
 .nav-links a {
-  margin: 5px 50px;
+  margin: 0 10px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   color: #fff;
@@ -65,8 +68,20 @@ a {
   color: #006400;
 }
 @media screen and (max-width: 480px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 10px;
+  }
   .logo {
-    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
   }
   .logo-img {
     height: 25px;
