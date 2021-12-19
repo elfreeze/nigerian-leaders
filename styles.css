@@ -100,7 +100,29 @@ a {
   }
 }
 
-
+/*------ Header styling ------*/
+.welcome-header {
+  height: 80vh;
+  width: 100%;
+  background: url(https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2020/05/abuja-1589282102432.jpg?fit=750%2C496&ssl=1);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-text {
+  font-family: ;
+  font-size: 30px;
+  color: #fff;
+}
+.welcome-header p {
+  padding: 30px;
+  font-family: ;
+  font-size: 20px;
+  color: #fff;
+}
 
 
 /*------- profile grid section -------*/
