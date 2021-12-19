@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 /*----- global attributes -----*/
 * {
   margin: 0;
@@ -9,6 +14,9 @@
 }
 html {
   font-size: 10px;
+}
+p {
+  font-family: ;
 }
 body {
   font-size: 12px;
@@ -102,26 +110,44 @@ a {
 
 /*------ Header styling ------*/
 .welcome-header {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
-  background: url(https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2020/05/abuja-1589282102432.jpg?fit=750%2C496&ssl=1);
+  background: url(https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2020/05/abuja-1589282102432.jpg?fit=750%2C496&ssl=1), #006400;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .welcome-text {
-  font-family: ;
-  font-size: 30px;
+  margin: 40px auto 20px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
   color: #fff;
+  text-shadow: 3px 3px 3px #000;
 }
 .welcome-header p {
   padding: 30px;
-  font-family: ;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
   color: #fff;
+  text-shadow: 3px 3px 3px #000;
+}
+@media screen and (max-width: 480px) {
+  .welcome-header {
+    height: 60vh;
+    width: 100%;
+  }
+  .welcome-text {
+    font-size: 35px;
+    margin: 20px auto 10px auto;
+  }
+  .welcome-header p {
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
 }
 
 
