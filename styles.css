@@ -390,11 +390,11 @@ a {
   width: 100%;
 }
 #img-caption {
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 13px;
-  width: 90%;
+  width: 100%;
 }
 .image-grid {
   display: grid;
