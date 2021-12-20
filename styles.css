@@ -15,8 +15,9 @@ font-family: 'Open Sans', sans-serif;
 html {
   font-size: 10px;
 }
-p {
-  font-family: ;
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #006400;
 }
 body {
   font-size: 12px;
@@ -27,6 +28,30 @@ a {
   text-decoration: none;
   color: #006400;
 }
+.btn {
+  display: grid;
+  place-items: center;
+  background: #006400;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.btn1:hover {
+  background: transparent;
+  color: #000
+  ;
+  border: 2px solid #fff;
+}
+@media screen and (max-width: 480px) {
+  .btn {
+  margin-top: 0;
+  height: 40px;
+}
+}
+
 /*------ beginning of global styling -----*/
 
 /*----- navigation menu styling -----*/
@@ -141,12 +166,12 @@ a {
     width: 100%;
   }
   .welcome-text {
-    font-size: 35px;
+    font-size: 30px;
     margin: 20px auto 10px auto;
   }
   .welcome-header p {
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
