@@ -230,9 +230,8 @@ a {
   background: #fff;
   background-size: cover;
   color: #000;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-
 .profiles-section-heading {
   width: 40%;
   background: #006400;
@@ -281,9 +280,12 @@ a {
 
 .profile-title {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bolder;
   padding: 5px auto;
+}
+.a1 {
+  font-size: 10px;
 }
 @media screen and (max-width: 480px) {  
   .profiles-section-heading { 
@@ -315,7 +317,9 @@ a {
     object-fit: cover;
     margin-bottom: 5px;
   } 
-  
+  .a1 {
+    font-size: 13px;
+  }
 }
 
 
