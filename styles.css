@@ -344,13 +344,27 @@ a {
 }
 .sub-heading {
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
 }
-.post-author {
+.author-container {
+  display: flex;
+  justify-content: space-between;
+}
+.post-author, .date-modified {
   font-size: 16px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+  width: 45%;
+}
+.post-author > span {
+  color: #006400;
+  font-weight: bold;
+}
+.date-modified > span {
+  color: #006400;
+  font-weight: bold;
 }
 .content-section p{
   font-size: 13px;
